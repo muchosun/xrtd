@@ -10,4 +10,7 @@ extra-deps: []
 
 # Nix integration
 nix:
-    packages: [ zlib ]
+    packages:
+    - gmp5.static
+    - zlib.static
+    - glibc.static
