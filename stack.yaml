@@ -1,0 +1,13 @@
+# Stackage resolver
+resolver: lts-11.13
+
+# Package list
+packages:
+- .
+
+# Extra dependencies
+extra-deps: []
+
+# Nix integration
+nix:
+    packages: [ zlib ]
